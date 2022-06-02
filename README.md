@@ -94,7 +94,7 @@
 - 若要開啟英文字典，打開`liur.extended.dict.yaml`，將`# - liur_English`改成`- liur_English`(即刪除前面的`#`)
 - 或可使用 nodejs 執行以下指令後，自行手動建立或更新 `Rime/liur_English.dict.yaml` 檔案
 ``` bash
-$ node develop/create-english.dict.js 
+$ node scripts/create-english.dict.js 
 ```
 
 功能如下：
