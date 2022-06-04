@@ -79,6 +79,23 @@
     - 如想用`tptr`打出`台北火車站`，則輸入`台北火車站<tab>tptr`
 5. 鼠鬚管按`重新部署`，會開始安裝所有輸入法(約莫30秒~1分鐘)，安裝好後會出現`部署完成`，可以開始使用！
 
+## Linux Installation
+
+IBus user should clone the repo to IBus' config folder, `~/.config/ibus/rime`, instead.
+
+1. Install fcitx5
+2. `mkdir -p ~/.local/share/fcitx5`
+3. `git clone https://github.com/dieterplex/rime-liur.git ~/.local/share/fcitx5/rime`
+4. re-deploy
+
+### Ubuntu
+
+`sudo apt install fcitx5 fcitx5-rime`
+
+### Archlinux
+
+`pacman -S fcitx5 fcitx5-rime`
+
 ## 未來再增加自定義詞彙
 
 1. 一樣加在`liur_customWords.dict.yaml`
